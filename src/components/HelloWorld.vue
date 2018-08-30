@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    HelloWorld
+    <span class="hello-ss">ddd</span>
   </div>
 </template>
 
@@ -15,6 +15,9 @@ export default {
 
 .hello {
   border: 1px solid black;
+  &-ss{
+    border:  1px solid red
+  }
 }
 
 </style>
